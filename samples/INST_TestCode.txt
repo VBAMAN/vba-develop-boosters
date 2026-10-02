@@ -1,0 +1,47 @@
+[Modules]
+
+Option Explicit
+
+'@ENGINE: VBA Develop Boosters - INST
+'@VERSION: 1.0
+'@MODULE: INST_10_Modules
+
+Public Sub Test()
+
+    Debug.Print "test"
+
+End Sub
+
+-
+
+[REPLACE]
+
+Option Explicit
+
+'@ENGINE: VBA Develop Boosters - INST
+'@VERSION: 1.0
+'@MODULE: INST_10_Modules
+'@SUB: Test
+
+Public Sub Test()
+
+    Debug.Print "REPLACE TEST"
+
+End Sub
+
+-
+
+[ADD]
+
+Option Explicit
+
+'@ENGINE: VBA Develop Boosters - INST
+'@VERSION: 1.0
+'@MODULE: INST_10_Modules
+'@SUB: NewTest
+
+Public Sub NewTest()
+
+    Debug.Print "ADD TEST"
+
+End Sub
